@@ -1,6 +1,7 @@
 const fs = require('fs/promises')
 
 const myFileWriter = async (fileName, fileContent) => {
+	// apple
 	// write code here
 	// dont chnage function name
 	fs.writeFile(fileName , fileContent)
